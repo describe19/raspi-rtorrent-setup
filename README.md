@@ -1,4 +1,7 @@
 # RasPi rTorrent setup
+Mostly stolen directly from: https://no.help/rTorrent-ruTorrent-Seedbox-Guide.php
+
+With some fixes (and not compiling anything from source).
 ## Some initial setup
 
 ```bash

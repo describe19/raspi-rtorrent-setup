@@ -1,6 +1,5 @@
 # RasPi rTorrent setup
 Mostly stolen directly from: https://no.help/rTorrent-ruTorrent-Seedbox-Guide.php
-
 With some fixes (and not compiling anything from source).
 ## Some initial setup
 
@@ -247,6 +246,10 @@ Now go to <your.ip.address>/rutorrent
 ## TODO
 ### autodl-irssi
 
+## Some things:
+The rtorrent user needs write access to any drive it downloads to (configure external drives with uid & gid options).
+rtorrent and irssi should run as same user to integrate nicely (i think).
+
 
 
 
@@ -258,3 +261,5 @@ https://terminal28.com/how-to-install-and-configure-rutorrent-rtorrent-debian-9-
 https://github.com/rakshasa/rtorrent/wiki/CONFIG-Template
 
 https://github.com/rakshasa/rtorrent/issues/844
+
+https://www.reddit.com/r/seedboxes/comments/6bv1wx/rutorrentapache_does_not_ask_for_a_password/dhrtsn3/

@@ -61,7 +61,7 @@ KillMode=process
 User=USERNAME
 ExecStartPre=/bin/bash -c "if test -e /home/USERNAME/rtorrent/.session/rtorrent.lock && test -z pidof rtorrent; then rm -f /home/nath/rtorrent/.session/rtorrent.lock; fi"
 ExecStart=/usr/bin/rtorrent
-WorkingDirectory=/home/nath/rtorrent
+WorkingDirectory=/home/USERNAME/rtorrent
 Restart=on-failure
 [Install]
 WantedBy=multi-user.target
